@@ -43,6 +43,7 @@ class _RegisterPageState extends State<RegisterPage> {
       },
       child: Scaffold(
         extendBodyBehindAppBar: true,
+        resizeToAvoidBottomInset: false,
         backgroundColor: primary,
         appBar: AppBar(
           surfaceTintColor: transparent,
